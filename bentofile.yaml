@@ -1,0 +1,8 @@
+service: "service:svc"
+labels:
+  owner: Hassn
+  stage: demo
+include:
+  - "*.py"
+python:
+  requirements_txt: "./requirements.txt"
